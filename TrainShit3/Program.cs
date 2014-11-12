@@ -69,25 +69,56 @@ namespace TrainShit3
 
         static void Pyramid()
         {
+            string Sharp = "#";
+            //Sharp = "5";  ** Fives are cool beleive me ~
+            //Sharp = "~";  ** ~s are smooth ~
+            //Sharp = "01";
            int Length = int.Parse(Console.ReadLine());
 
 
             for (int i = 0; i < Length ; i++)
             {
-                for (int k = 0; k < Length - 1; k++)
+                for (int k = i; k < Length - 1 ; k++)
                 {
                     Console.Write(" ");
                 }
-                for (int j = i; j < Length - i; j++)
+                for (int j = 0; j < i + 1; j++)
                 {
-                    Console.Write("#");
+                    Console.Write(Sharp);
+                }
+                for (int j = 0; j < i + 1; j++)
+                {
+                    Console.Write(Sharp);
+                }
+                for (int k = i; k < Length - 1; k++)
+                {
+                    Console.Write(" ");
                 }
                 Console.WriteLine("");
             }
-            fking work allready;
-                for fuck sake work;
-            sfdsdfsdfsdfsad dsfadf
+            for (int i = Length; i > 0; i--)
+            {                
+                for (int k = Length; k > i  ; k--)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write(Sharp);
+                }
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write(Sharp);
+                }
+                for (int k = Length; k > i; k--)
+                {
+                    Console.Write(" ");
+                }
+                Console.WriteLine("");
+            }
+           
 
         }
+        
     }
 }
