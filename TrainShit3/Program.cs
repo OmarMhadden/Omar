@@ -84,6 +84,7 @@ namespace TrainShit3
                 }
                 Console.WriteLine("");
             }
+            fking work already
             sfdsdfsdfsdfsad
         }
     }
