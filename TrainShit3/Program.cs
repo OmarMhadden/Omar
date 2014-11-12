@@ -84,7 +84,8 @@ namespace TrainShit3
                 }
                 Console.WriteLine("");
             }
-            fking work allready
+            fking work allready;
+                for fuck sake work;
             sfdsdfsdfsdfsad
         }
     }
