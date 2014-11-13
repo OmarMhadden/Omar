@@ -15,6 +15,7 @@ namespace TrainShit3
             Console.WriteLine(PRGM.ToUpperCase(""));
             Program.Pyramid();
             Console.ReadKey();
+            b;
         }
         public bool LikeStartLikeEnd(string s)
         {
