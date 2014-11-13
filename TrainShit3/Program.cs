@@ -43,6 +43,7 @@ namespace TrainShit3
             }
             return q;
         }
+        int wtf = 1;
         public string ToUpperCase(string s)
         {
             string TheReturnedS = "";
