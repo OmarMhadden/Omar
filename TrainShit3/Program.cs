@@ -72,7 +72,7 @@ namespace TrainShit3
             string Sharp = "#";
             //Sharp = "5";  ** Fives are cool beleive me ~
             //Sharp = "~";  ** ~s are smooth ~
-            //Sharp = "01";
+            //Sharp = "01"; Its like a tank 
            int Length = int.Parse(Console.ReadLine());
 
 
